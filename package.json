@@ -1,0 +1,44 @@
+{
+  "name": "dep-migrate",
+  "version": "1.0.1",
+  "description": "a CLI tool that helps developers migrate away from deprecated or outdated packages with ease.",
+  "main": "index.ts",
+  "bin": {
+    "dep-migrate": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts"
+  },
+  "keywords": [
+    "cli",
+    "cli-tool",
+    "dependencies",
+    "migrate",
+    "packages",
+    "npm"
+  ],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "boxen": "^8.0.1",
+    "chalk": "^5.6.0",
+    "child_process": "^1.0.2",
+    "fs": "^0.0.1-security",
+    "https": "^1.0.0",
+    "inquirer": "^12.9.3",
+    "ora": "^8.2.0",
+    "path": "^0.12.7",
+    "readline": "^1.3.0"
+  },
+  "devDependencies": {
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/github": "^11.0.4",
+    "@semantic-release/npm": "^12.0.2",
+    "semantic-release": "^24.2.7",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2"
+  }
+}
