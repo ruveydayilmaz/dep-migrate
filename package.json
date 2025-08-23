@@ -1,6 +1,6 @@
 {
   "name": "dep-migrate",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "description": "a CLI tool that helps developers migrate away from deprecated or outdated packages with ease.",
   "main": "index.ts",
   "bin": {
